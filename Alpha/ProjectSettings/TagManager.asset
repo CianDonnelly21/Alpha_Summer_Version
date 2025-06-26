@@ -7,11 +7,15 @@ TagManager:
   - Dropdown
   - CrouchMan
   - BananaMan
-  - Banana
   - Box_Movable
   - Cherry
   - BananaTwo
   - BananaThree
+  - BananaOne
+  - BackMan
+  - Portal
+  - Banana
+  - Death
   layers:
   - Default
   - TransparentFX
