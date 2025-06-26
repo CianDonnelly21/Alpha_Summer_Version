@@ -130,6 +130,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cherry
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: da4eeef492c0d1842963d6576330682d, type: 3}
+      propertyPath: m_TagString
+      value: Portal
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da4eeef492c0d1842963d6576330682d, type: 3}
       propertyPath: m_LocalScale.x
       value: 4
@@ -361,8 +365,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.6718583, y: 2.6647527, z: 8.306017}
-  m_Center: {x: -0.03116107, y: 0.9159471, z: -0.07722378}
+  m_Size: {x: 1.0880098, y: 2.6647527, z: 8.306017}
+  m_Center: {x: -0.07006407, y: 0.9159471, z: -0.07722378}
 --- !u!1 &381558707 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 635547659545568360, guid: 81bb9eea30387e442899949a80011e55, type: 3}
@@ -539,8 +543,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.0051258, y: 2.3393316, z: 15.349709}
-  m_Center: {x: 0.3318752, y: 1.1806796, z: -0.49923325}
+  m_Size: {x: 1.0051258, y: 2.2740278, z: 15.349709}
+  m_Center: {x: 0.3318752, y: 1.1480277, z: -0.49923325}
 --- !u!1 &667612338
 GameObject:
   m_ObjectHideFlags: 0
@@ -789,7 +793,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 81bb9eea30387e442899949a80011e55, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.07
+      value: -1.82
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 81bb9eea30387e442899949a80011e55, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1080,8 +1084,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.3875129, y: 2.6878116, z: 16.395082}
-  m_Center: {x: 0.26334915, y: 0.92328894, z: 3.6826859}
+  m_Size: {x: 1.1974258, y: 2.6878116, z: 16.395082}
+  m_Center: {x: 0.35839275, y: 0.92328894, z: 3.6826859}
 --- !u!1 &1412941047
 GameObject:
   m_ObjectHideFlags: 0
@@ -1325,6 +1329,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Banana
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 461f0170c82b53340a9812199b63bbd4, type: 3}
+      propertyPath: m_TagString
+      value: Banana
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 461f0170c82b53340a9812199b63bbd4, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -1545,7 +1553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 81bb9eea30387e442899949a80011e55, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.07
+      value: -1.801
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 81bb9eea30387e442899949a80011e55, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2208,8 +2216,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.3624039, y: 2.3862102, z: 14.582247}
-  m_Center: {x: 0.31561542, y: 1.118549, z: -0.70336056}
+  m_Size: {x: 1.1776747, y: 2.3862102, z: 14.582247}
+  m_Center: {x: 0.40798002, y: 1.118549, z: -0.70336056}
 --- !u!1001 &2040891387
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2312,6 +2320,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Banana (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 461f0170c82b53340a9812199b63bbd4, type: 3}
+      propertyPath: m_TagString
+      value: Banana
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 461f0170c82b53340a9812199b63bbd4, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -2376,6 +2388,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 461f0170c82b53340a9812199b63bbd4, type: 3}
       propertyPath: m_Name
       value: Banana (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 461f0170c82b53340a9812199b63bbd4, type: 3}
+      propertyPath: m_TagString
+      value: Banana
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 461f0170c82b53340a9812199b63bbd4, type: 3}
       propertyPath: m_LocalScale.x

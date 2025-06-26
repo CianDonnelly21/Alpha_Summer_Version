@@ -7,10 +7,10 @@ public GameObject CrouchMan;
 public GameObject BananaMan;
 
 void Start() 
-{
-    CrouchMan.gameObject.SetActive(false);
-    BananaMan.gameObject.SetActive(true);
-}
+    {
+        CrouchMan.gameObject.SetActive(false);
+        BananaMan.gameObject.SetActive(true);
+    }
 
 void Update()
     {
@@ -26,7 +26,7 @@ void Update()
 
         if (Input.GetKey(KeyCode.Space))
         {
-            transform.Translate(Vector3.up );
+            transform.Translate(Vector3.up * 1);
         }
         //Double Jump
         if (Input.GetKey(KeyCode.R))
