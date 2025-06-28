@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class Food_Spawn : MonoBehaviour {
@@ -53,6 +55,8 @@ void OnTriggerEnter(Collider other)
         if(other.CompareTag("Cherry"))
         {
             Cherry.gameObject.SetActive(false);
+            int NextIndex = SceneManager.GetActiveScene().buildIndex + 1;
+            SceneManager.LoadScene(NextIndex);
         }
 
         if(other.CompareTag("Death"))

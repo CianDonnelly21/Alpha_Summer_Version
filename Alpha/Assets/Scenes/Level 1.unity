@@ -204,6 +204,7 @@ MonoBehaviour:
   BananaTwo: {fileID: 369393273}
   BananaThree: {fileID: 482075319}
   Cherry: {fileID: 425465063}
+  Hotdog: {fileID: 0}
   BananaMan: {fileID: 721934144}
   CrouchMan: {fileID: 1442398987}
 --- !u!1 &425465063 stripped
@@ -266,6 +267,7 @@ MonoBehaviour:
   BananaTwo: {fileID: 369393273}
   BananaThree: {fileID: 482075319}
   Cherry: {fileID: 425465063}
+  Hotdog: {fileID: 0}
   BananaMan: {fileID: 721934144}
   CrouchMan: {fileID: 1442398987}
 --- !u!1 &482075319 stripped
@@ -328,6 +330,7 @@ MonoBehaviour:
   BananaTwo: {fileID: 369393273}
   BananaThree: {fileID: 482075319}
   Cherry: {fileID: 425465063}
+  Hotdog: {fileID: 0}
   BananaMan: {fileID: 721934144}
   CrouchMan: {fileID: 1442398987}
 --- !u!1001 &493175001
@@ -1223,6 +1226,7 @@ MonoBehaviour:
   BananaTwo: {fileID: 369393273}
   BananaThree: {fileID: 482075319}
   Cherry: {fileID: 425465063}
+  Hotdog: {fileID: 0}
   BananaMan: {fileID: 721934144}
   CrouchMan: {fileID: 1442398987}
 --- !u!1001 &824279765
@@ -2177,6 +2181,7 @@ MonoBehaviour:
   BananaTwo: {fileID: 369393273}
   BananaThree: {fileID: 482075319}
   Cherry: {fileID: 425465063}
+  Hotdog: {fileID: 0}
   BananaMan: {fileID: 721934144}
   CrouchMan: {fileID: 1442398987}
 --- !u!1 &1442398987 stripped
@@ -2282,6 +2287,7 @@ MonoBehaviour:
   BananaTwo: {fileID: 369393273}
   BananaThree: {fileID: 482075319}
   Cherry: {fileID: 425465063}
+  Hotdog: {fileID: 0}
   BananaMan: {fileID: 721934144}
   CrouchMan: {fileID: 1442398987}
 --- !u!1 &1473140578 stripped
@@ -2639,6 +2645,7 @@ MonoBehaviour:
   BananaTwo: {fileID: 369393273}
   BananaThree: {fileID: 482075319}
   Cherry: {fileID: 425465063}
+  Hotdog: {fileID: 0}
   BananaMan: {fileID: 1627021364}
   CrouchMan: {fileID: 1442398987}
 --- !u!114 &1627021367
