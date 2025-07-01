@@ -13,6 +13,8 @@ public GameObject Cherry;
 public GameObject Hotdog;
 public GameObject BananaMan;
 public GameObject CrouchMan;
+public GameObject Olive;
+public GameObject BoxMovable;
 
 void Start()
     {
@@ -21,6 +23,7 @@ void Start()
         BananaThree.gameObject.SetActive(false);
         Cherry.gameObject.SetActive(false);
         Hotdog.gameObject.SetActive(true);
+        Olive.gameObject.SetActive(false);
 
         BananaOne.gameObject.transform.position = new Vector3(Random.Range(-10, 15), 5, -1);
     }
@@ -50,11 +53,14 @@ void OnTriggerEnter(Collider other)
         {
             BananaThree.gameObject.SetActive(false);
             Cherry.gameObject.SetActive(true);
+            Olive.gameObject.SetActive(true);
         }
 
         if(other.CompareTag("Cherry"))
         {
             Cherry.gameObject.SetActive(false);
+            
+            //How it loads next scene
             int NextIndex = SceneManager.GetActiveScene().buildIndex + 1;
             SceneManager.LoadScene(NextIndex);
         }
@@ -68,6 +74,12 @@ void OnTriggerEnter(Collider other)
             BananaThree.gameObject.SetActive(false);
             Cherry.gameObject.SetActive(false);
             Hotdog.gameObject.SetActive(false);
+        }
+
+        if(other.CompareTag("Olive"))
+        {
+            Olive.gameObject.SetActive(false);
+            BoxMovable.gameObject.SetActive(false);
         }
     }
 }
