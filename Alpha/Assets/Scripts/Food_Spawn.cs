@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Food_Spawn : MonoBehaviour {
 
+private GameManager gameManager;
 public GameObject BananaOne;
 public GameObject BananaTwo;
 public GameObject BananaThree;
@@ -18,6 +19,10 @@ public GameObject BoxMovable;
 
 void Start()
     {
+        gameManager = GameObject.Find("BananaOne").GetComponent<GameManager>();
+        gameManager = GameObject.Find("BananaTwo").GetComponent<GameManager>();
+        gameManager = GameObject.Find("BananaThree").GetComponent<GameManager>();
+
         BananaOne.gameObject.SetActive(true);
         BananaTwo.gameObject.SetActive(false);
         BananaThree.gameObject.SetActive(false);
@@ -37,6 +42,7 @@ void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("BananaOne"))
         {
+            gameManager.UpdateGems(1);
             BananaOne.gameObject.SetActive(false);
             BananaTwo.gameObject.transform.position = new Vector3(Random.Range(-10, 15), 5, -1);
             BananaTwo.gameObject.SetActive(true);
@@ -44,6 +50,7 @@ void OnTriggerEnter(Collider other)
 
         if(other.CompareTag("BananaTwo"))
         {
+            gameManager.UpdateGems(1);
             BananaTwo.gameObject.SetActive(false);
             BananaThree.gameObject.transform.position = new Vector3(Random.Range(-10, 15), 5, -1);
             BananaThree.gameObject.SetActive(true);
@@ -51,6 +58,7 @@ void OnTriggerEnter(Collider other)
 
         if(other.CompareTag("BananaThree"))
         {
+            gameManager.UpdateGems(1);
             BananaThree.gameObject.SetActive(false);
             Cherry.gameObject.SetActive(true);
             Olive.gameObject.SetActive(true);
@@ -60,7 +68,7 @@ void OnTriggerEnter(Collider other)
         {
             Cherry.gameObject.SetActive(false);
             
-            //How it loads next scene
+            //How it loads next scene - Check
             int NextIndex = SceneManager.GetActiveScene().buildIndex + 1;
             SceneManager.LoadScene(NextIndex);
         }
@@ -74,6 +82,9 @@ void OnTriggerEnter(Collider other)
             BananaThree.gameObject.SetActive(false);
             Cherry.gameObject.SetActive(false);
             Hotdog.gameObject.SetActive(false);
+            Olive.gameObject.SetActive(false);
+
+            SceneManager.LoadScene(5);
         }
 
         if(other.CompareTag("Olive"))

@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour {
 
@@ -9,20 +10,28 @@ public class GameManager : MonoBehaviour {
 //Text in game eg. gems collected, health, and time
 public Button PlayButton;
 
+public int gems;
+public TextMeshProUGUI Gems_Left;
+
 void Start() 
     {
         PlayButton.onClick.AddListener(LevelOne);
+        gems = 0;
     }
 
 void Update()
     {
-        
+
     }
 
+public void UpdateGems(int NumberOfGems)
+    {
+        gems -= NumberOfGems;
+        Gems_Left.text = "Gems Left: " + gems;
+    }   
 void LevelOne()
     {
         SceneManager.LoadScene(1);
-   
     }
 
     void LevelTwo()
