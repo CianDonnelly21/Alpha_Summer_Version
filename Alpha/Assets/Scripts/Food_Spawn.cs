@@ -71,6 +71,15 @@ void OnTriggerEnter(Collider other)
             //How it loads next scene - Check
             int NextIndex = SceneManager.GetActiveScene().buildIndex + 1;
             SceneManager.LoadScene(NextIndex);
+            
+            BananaMan.gameObject.SetActive(false);
+            CrouchMan.gameObject.SetActive(false);
+            BananaOne.gameObject.SetActive(false);
+            BananaTwo.gameObject.SetActive(false);
+            BananaThree.gameObject.SetActive(false);
+            Cherry.gameObject.SetActive(false);
+            Hotdog.gameObject.SetActive(false);
+            Olive.gameObject.SetActive(false);
         }
 
         if(other.CompareTag("Death"))
