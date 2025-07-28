@@ -16,28 +16,28 @@ void Start()
 
 void Update()
     {
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             transform.Translate(Vector3.forward * speed);
         }
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             transform.Translate(Vector3.back * speed);
         }
 
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.UpArrow))
         {
             transform.Translate(Vector3.up * 1);
         }
         //Double Jump
-        if (Input.GetKey(KeyCode.R))
+        if (Input.GetKey(KeyCode.Space))
         {
             transform.Translate(Vector3.up * 7);
         }
 
         //Crouch 
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.DownArrow))
         {
             BananaMan.transform.position = transform.position;
 
