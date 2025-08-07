@@ -18,4 +18,4 @@ Box: https://assetstore.unity.com/packages/3d/props/furniture/cartoon-wooden-box
 
 Box Colour: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.owatroldirect.co.uk%2Fwoodcare%2Fdifference-between-brown-green-timber%2F&psig=AOvVaw1Ms5sQWfqjXVBtYC96cI4R&ust=1750369948656000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDq2qX6-40DFQAAAAAdAAAAABAE
 
-UI Image: https://hotpot.ai/ai-image-generator/create
+UI Image (AI Image Generated): https://hotpot.ai/ai-image-generator/create
