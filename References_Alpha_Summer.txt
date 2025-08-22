@@ -1,7 +1,3 @@
-# Alpha_Summer_Version
-
-References:
-
 Folder: Assets/Images/Jungle_Background.png
 Original Name: Pixel art jungle forest game location. Seamless rainforest vector background.
 Location: https://www.shutterstock.com/image-vector/pixel-art-jungle-forest-game-location-2399224531
